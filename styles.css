@@ -32,6 +32,33 @@ main {
     transition: transform 0.3s ease; /* Transition for smooth animation */
 }
 
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card h2 {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+.card p {
+    font-size: 1em;
+    color: #555;
+}
+
+.card button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #555;
+}
+
 .card:hover {
     transform: scale(1.05); /* Scale up the card on hover */
 }
